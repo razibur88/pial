@@ -1,9 +1,15 @@
-
+import About from "./components/About"
+import Banner from "./components/Banner"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
 
 function App() {
   return (
     <>
-     <h2>hello</h2>
+     <Header/>
+     <Banner/>
+     <About/>
+     <Footer/>
     </>
   )
 }
